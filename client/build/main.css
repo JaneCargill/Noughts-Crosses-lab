@@ -1,0 +1,32 @@
+body{
+  
+  font-family: helvetica;
+  font-size: 40px;
+  color: mediumaquamarine;
+  text-align: center;
+}
+
+.mainGrid{
+  display: flex;
+  width: 200px;
+ flex-flow: row wrap; 
+}
+
+.grid1{
+  border: 2px solid mediumaquamarine;
+  flex-direction: row;
+  width: 50px;
+  height: 50px;
+}
+.grid2{
+  border: 2px solid mediumaquamarine;
+  flex-direction: row;
+  width: 50px;
+  height: 50px;
+}
+.grid3{
+  border: 2px solid mediumaquamarine;
+  flex-direction: row;
+  width: 50px;
+  height: 50px;
+}
